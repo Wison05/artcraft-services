@@ -7,7 +7,7 @@ import HeroGalaxy from "./hero-galaxy";
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative">
+    <section id="hero" className="relative overflow-x-clip">
       {/* Single-stage radial poster: the wordmark at the center is the
           emanation point of the galaxy — showcase cards born blurred behind
           the brand mark, swirling out along the arms. Everything that sells
